@@ -1,2 +1,1 @@
-# Gospel-Note Backend code
-
+# Gospel-Note Backend
