@@ -74,8 +74,8 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(seconds=5),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
     "ROTATE_REFRESH_TOKENS": True,
-    "BLACKLIST_AFTER_ROTATION": False,  # 문제 원인 찾지 못함
-    # "BLACKLIST_AFTER_ROTATION": True,  # 문제 원인 찾지 못함
+    # "BLACKLIST_AFTER_ROTATION": False,  # 문제 원인 찾지 못함
+    "BLACKLIST_AFTER_ROTATION": True,  # 문제 원인 찾지 못함
     "UPDATE_LAST_LOGIN": False,
     "ALGORITHM": "HS256",
     # "SIGNING_KEY": settings.SECRET_KEY,

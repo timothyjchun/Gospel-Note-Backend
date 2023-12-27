@@ -162,9 +162,7 @@ class CreateProgressCalendar(APIView):
 
     def get(self, request):
         requested_year = int(request.query_params["year"])
-        print(request.user.id)
         user = User.objects.get(id=request.user.id)
-        print(user)
         pc = Progress_Calendar(year=requested_year, request_user=user)
         progress_calendar = pc.create_progress_calendar()
         return Response({"calendar": progress_calendar}, status=200)
