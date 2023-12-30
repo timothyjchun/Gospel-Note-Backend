@@ -7,5 +7,4 @@ Through Gospel Note, people can listen to the wise words of the Bible which are 
 This repository is the backend code of the web application using Django
 
 **the site**
-
 https://gospelnote.timothychun.com/
